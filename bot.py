@@ -2,7 +2,6 @@ import asyncio
 import discord
 from discord import flags
 import requests
-import pymysql
 import os
 from discord_buttons_plugin import  *
 from discord import Intents
