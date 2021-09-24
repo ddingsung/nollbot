@@ -125,5 +125,5 @@ async def 정보(ctx):
         )
     )
 
-bot.run(os.environ[`token`])
+bot.run(os.environ['token'])
     
