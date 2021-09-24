@@ -3,6 +3,7 @@ import discord
 from discord import flags
 import requests
 import pymysql
+import os
 from discord_buttons_plugin import  *
 from discord import Intents
 from discord_slash import SlashCommand
@@ -124,5 +125,5 @@ async def 정보(ctx):
         )
     )
 
-bot.run(`token`)
+bot.run(os.environ[`token`])
     
