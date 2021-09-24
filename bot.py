@@ -5,7 +5,6 @@ import requests
 import os
 from discord_buttons_plugin import  *
 from discord import Intents
-from discord_slash import SlashCommand
 from discord.ext import commands
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
