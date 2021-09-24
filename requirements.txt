@@ -2,3 +2,6 @@ discord.py
 asyncio
 requests
 discord_buttons_plugin
+websockets
+aiohttp
+beautifulsoup4
