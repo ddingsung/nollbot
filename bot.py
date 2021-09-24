@@ -16,7 +16,7 @@ intents.members = True
 bot = commands.Bot(command_prefix='/', intents=intents)
 buttons = ButtonsClient(bot)
 
-token = "ODc3MzUyNTg2NTYxMzM5NDcy.YRxYRQ.MKLngogbcx6ETYVCO6OY4pOGPWA"
+#token = "ODc3MzUyNTg2NTYxMzM5NDcy.YRxYRQ.MKLngogbcx6ETYVCO6OY4pOGPWA"
 
 
 @bot.event
@@ -124,5 +124,5 @@ async def 정보(ctx):
         )
     )
 
-bot.run(token)
+bot.run(`token`)
     
