@@ -1,4 +1,4 @@
 discord.py
 asyncio
 requests
-discord_bottons_plugin
+discord.py discord_bottons_plugin
