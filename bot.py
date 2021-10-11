@@ -96,6 +96,10 @@ async def button_yes(ctx):
                 await member.remove_roles(get(ctx.guild.roles, name="손님"))
                 await member.edit(nick=nick)
                 await ctx.reply("`권한부여 완료. 환영합니다 :D`", flags = MessageFlags().EPHEMERAL)
+                channel = ctx.guild.get_channel(888770159148412958)
+                embed = discord.Embed(title ="반가워요 :D", description = nick + "님께서 저희길드에 가입하셨어요 !\n다들 인사로 환영해주세요 !", color=0x62c1cc)
+                embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/897093385591066666/897112968381202452/i14994243660.png")
+                await channel.send(embed=embed)
             else:
                 await ctx.reply("`길드원만 들어올수있는 디스코드입니다.\n관리자에게 문의 해주세요.`", flags = MessageFlags().EPHEMERAL)
                 await ctx.channel.purge(limit=3)
