@@ -41,7 +41,7 @@ async def chat(ctx):
 #@commands.has_permissions(change_nickname=True) / - 스레기
 async def information(ctx, *, nickname):
             url = "https://lostark.game.onstove.com/Profile/Character/"+ nickname
-            print (url) # 로그 성 출력
+            print (url) # 로그 성 출f
             global Class
             global guild
             global nick
