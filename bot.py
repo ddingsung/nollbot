@@ -133,7 +133,7 @@ async def reaction_to_message(ctx):
     embed.add_field(name="목요일", value="3️⃣ [하드]발탄 20:30         4️⃣ [노말]비아키스 22:30", inline=False)
     embed.add_field(name="금요일", value="5️⃣ [노말]발탄 20:30    6️⃣ [하드]비아키스 21:30", inline=False)
     embed.add_field(name="토요일", value="7️⃣ [하드]발탄 17:30         8️⃣ [데자뷰]아브렐슈드 19:30", inline=False)
-    embed.add_field(name="일요일", value="❤️ [길드]토벌전 18:30", inline=False)
+    embed.add_field(name="일요일", value="❤️ [길드]토벌전 21:30", inline=False)
     embed.set_footer(text="<눈치주지말고 즐거운 분위기로 진행 합시다>")
     await ctx.send("@everyone")
     msg = await ctx.send(embed=embed)
