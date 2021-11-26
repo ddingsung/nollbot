@@ -119,7 +119,7 @@ async def infor_error(ctx, error):
 async def 정보(ctx):
     members = [member.name for member in ctx.guild.members]
     await ctx.send(
-        "{} 서버는 {} 서버이며 구성원은 {} 이고 총 {} 명입니다.".format(
+        "{} 서버는 {} 서버이며 구성원은 {} 이고 총 {} 명입니다".format(
             ctx.guild.name, 
             ctx.guild.region, 
             members, 
