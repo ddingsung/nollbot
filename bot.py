@@ -137,7 +137,7 @@ async def reaction_to_message(ctx):
     embed.set_footer(text="<눈치주지말고 즐거운 분위기로 진행 합시다>")
     await ctx.send("@everyone")
     msg = await ctx.send(embed=embed)
-    reaction_list = ['1️⃣', '2️⃣', '3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','❤️']
+    reaction_list = ['1️⃣', '2️⃣', '3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','❤️']
     for r in reaction_list:
         await msg.add_reaction(r)
         
