@@ -128,7 +128,7 @@ async def 정보(ctx):
     )
 @bot.command(name="일정투표")
 async def reaction_to_message(ctx):
-    embed=discord.Embed(title= "이번주 길드일정표", description ="참여하고싶은 시간대 번호를 눌러서 참가유무를 알려주세요 !",color=0x6892f3)
+    embed=discord.Embed(title= "이번주 길드일정표", description ="참여하고싶은 시간대 번호를 눌러서 참가유무를 알려주세요 !!",color=0x6892f3)
     embed.add_field(name="수요일", value="1️⃣ [노말]발탄 20:30           2️⃣ [노말] 비아키스 21:30", inline=False)
     embed.add_field(name="목요일", value="3️⃣ [노말]발탄 20:30         4️⃣ [노말]비아키스 22:30", inline=False)
     embed.add_field(name="금요일", value="5️⃣ [하드]발탄 20:30    6️⃣ [하드]비아키스 21:30", inline=False)
