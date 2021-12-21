@@ -128,16 +128,16 @@ async def 정보(ctx):
     )
 @bot.command(name="일정투표")
 async def reaction_to_message(ctx):
-    embed=discord.Embed(title= "이번주 길드일정표", description ="참여하고싶은 시간대 번호를 눌러서 참가유무를 알려주세요 !!",color=0x6892f3)
-    embed.add_field(name="수요일", value="1️⃣ [노말]발탄 20:30           2️⃣ [노말] 비아키스 21:30", inline=False)
-    embed.add_field(name="목요일", value="3️⃣ [노말]발탄 20:30         4️⃣ [노말]비아키스 22:30", inline=False)
-    embed.add_field(name="금요일", value="5️⃣ [하드]발탄 20:30    6️⃣ [하드]비아키스 21:30", inline=False)
-    embed.add_field(name="토요일", value="7️⃣ [하드]발탄 17:30         8️⃣ [데자뷰]아브렐슈드 19:30", inline=False)
-    embed.add_field(name="일요일", value="9️⃣ [노말]아브렐슈드 19:30     ❤️ [길드]토벌전 21:30", inline=False)
-    embed.set_footer(text="<눈치주지말고 즐거운 분위기로 진행 합시다>")
+    embed=discord.Embed(title= "이번주 길드일정표", description ="참여하고싶은 시간대 번호를 눌러서 참가유무를 알려주세요!",color=0x6892f3)
+    embed.add_field(name="수요일", value="1️⃣ [노말]발탄 20:30           2️⃣ [하드] 발탄 21:30", inline=False)
+    embed.add_field(name="목요일", value="3️⃣ [노말]비아키스 20:30       4️⃣ [하드]비아키스 21:30", inline=False)
+    embed.add_field(name="금요일", value="5️⃣ [하드]발탄 20:30           6️⃣ [노말] 아브렐슈드 21:30", inline=False)
+    embed.add_field(name="토요일", value="7️⃣ [점령전]고요한 안식의 섬 20:30", inline=False)
+    embed.add_field(name="일요일", value="❤️ [길드]토벌전 20:30", inline=False)
+    embed.set_footer(text="<눈치주지말고 즐거운 분위기로 진행 합시다, 추가로 학원팟 희망하시는분은 관리자에게 DM주시면 공지 작성해드리겠습니다>")
     await ctx.send("@everyone")
     msg = await ctx.send(embed=embed)
-    reaction_list = ['1️⃣', '2️⃣', '3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','❤️']
+    reaction_list = ['1️⃣', '2️⃣', '3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','❤️']
     for r in reaction_list:
         await msg.add_reaction(r)
         
