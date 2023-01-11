@@ -15,7 +15,7 @@ intents.members = True
 bot = commands.Bot(command_prefix='/', intents=intents)
 buttons = ButtonsClient(bot)
 
-#token = "ODc3MzUyNTg2NTYxMzM5NDcy.YRxYRQ.MKLngogbcx6ETYVCO6OY4pOGPWA"
+#token = ""
 
 
 @bot.event
